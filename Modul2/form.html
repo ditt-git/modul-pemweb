@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>FORMULIR PENDAFTARAN PRAKTIKAN</h1>
+
+    <form action="table.html">
+      <table>
+        <tr>
+          <td><label>NIM</label></td>
+          <td>
+            <section>
+              <input
+              value="103082400044"
+              id="nim"
+              name="nim"
+              type="text"
+              readonly
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Username</label></td>
+          <td>
+            <input
+              value="pradiptafirdauseka"
+              id="username"
+              name="username"
+              type="text"
+              disabled
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Email</label></td>
+          <td><input id="email" name="email" type="email" required /></td>
+        </tr>
+
+        <tr>
+          <td><label>Password</label></td>
+          <td>
+            <input id="password" name="password" type="password" required />
+          </td>
+        </tr>
+
+        </section>
+          
+
+        <section>
+           <tr>
+          <td><label id="minat">Minat</label></td>
+          <td>
+            <input type="checkbox" id="minat" name="minat" value="renang" />
+            <label for="">Renang</label><br />
+            <input type="checkbox" id="minat" name="minat" value="bersepeda" />
+            <label for="">Bersepeda</label><br />
+            <input type="checkbox" id="minat" name="minat" value="memancing" />
+            <label for="">Memancing</label><br />
+          </td>
+        </tr>
+          
+        </section>
+
+
+        <section>
+        <td><label>Jenjang Pendidikan</label></td>
+          <td>
+            <select id="Pendidikan" name="Pendidikan">
+              <option value="" disabled selected>--- Pilih ---</option>
+              <option value="kuliah">D3</option>
+              <option value="sma">S1</option>
+              <option value="smp">S2</option>
+              <option value="sd">S3</option>
+            </select>
+          </td>
+        </tr>
+
+        </section>
+
+        <section>
+                  <tr>
+          <td><label for="">Upload foto</label></td>
+          <td><input type="file" /></td>
+        </tr>
+        </section>
+        <tr>
+
+          <section>
+          <tr>
+          <td><label for="">Harapan</label></td>
+          <td><textarea name="" id="" cols="50%" rows="5"></textarea></td>
+          <td>
+            <button type="button">Cancel</button>
+            <button type="submit">Submit</button>
+          </td>
+        </tr>
+
+          </section>
+      </table>
+    </form>
+  </body>
+</html>

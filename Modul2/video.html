@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: poppins;
+        text-align: center;
+        margin: 10px 15px;
+        align-items: center;
+      }
+
+      h1 {
+        font-weight: bolder;
+        font-size: 50px;
+      }
+
+      img {
+        width: 90%;
+        object-fit: cover;
+        overflow: hidden;
+        transition: transform 1s ease-in-out;
+        transform: scale();
+      }
+
+      img:hover {
+        transition: 1s;
+        transform: scale(1.05);
+      }
+
+      .description {
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <h1>Hello, Duo!</h1>
+      <tr>
+        <td>
+          <img src="duo.jpg" alt="iphone-duo" />
+        </td>
+      </tr>
+
+      <tr>
+        <td class="description">
+          Introducing iPhone Duo, the first foldable iPhone. When open, it’s the
+          thinnest iPhone with the largest display ever — 50 percent larger than
+          iPhone 18 Pro Max. And it has an outer display with more than 90
+          percent of the screen area of iPhone 18 Pro. Through reimagined iOS
+          experiences, it offers unparalleled versatility in all-new poses and
+          orientations. All in a durable, pocketable design. It’s an iPhone
+          unlike any iPhone.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <video src="video.mp4" autoplay width="100%"></video>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
